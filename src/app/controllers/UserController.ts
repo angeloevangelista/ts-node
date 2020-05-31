@@ -6,6 +6,8 @@ class UserController {
   public async index(req: Request, res: Response) : Promise<Response> {
     const users = await User.find();
 
+    console.log(users[0].fullName());
+
     return res.json(users);
   }
 

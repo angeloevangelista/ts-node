@@ -24,6 +24,7 @@ module.exports = {
   rules: {
     'class-methods-use-this': 'off',
     'import/no-unresolved': 'off',
-    'import/extensions': 'off'
+    'import/extensions': 'off',
+    'func-names': 'off'
   },
 };
