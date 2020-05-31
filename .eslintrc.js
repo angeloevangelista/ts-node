@@ -18,8 +18,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
+    'prettier',
     '@typescript-eslint',
   ],
   rules: {
+    'class-methods-use-this': 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off'
   },
 };
